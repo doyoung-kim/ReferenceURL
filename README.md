@@ -2,97 +2,103 @@
 
 Reference URL
 
-RKE2  Releases · rancher/rke2 
+Reference URL
 
-Rancher Community rancher 2.10.3 · helm/rancher-stable 
+RKE2  https://github.com/rancher/rke2/releases 
+
+Rancher Community https://artifacthub.io/packages/helm/rancher-stable/rancher 
 
 helm repo add rancher-latest https://releases.rancher.com/server-charts/latest
 
 helm search repo rancher-latest --versions 
 
-Longhorn GitHub - longhorn/longhorn: Cloud-Native distributed storage built on and for Kubernetes 
+Longhorn https://github.com/longhorn/longhorn/tree/master 
 
 helm search repo longhorn/longhorn --versions
 
-MinIO GitHub - minio/minio: MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license. 
+MinIO https://github.com/minio/minio 
 
  helm search repo minio/minio --versions
 
-Azure CSI Driver Releases · kubernetes-sigs/azuredisk-csi-driver 
+Azure CSI Driver https://github.com/kubernetes-sigs/azuredisk-csi-driver/releases 
 
-Istio Releases · istio/istio 
+Istio https://github.com/istio/istio/releases 
 
-Nginx Ingress Releases · kubernetes/ingress-nginx 
+Nginx Ingress https://github.com/kubernetes/ingress-nginx/releases 
 
-haproxy Index of /download 
+haproxy https://www.haproxy.org/download/ 
 
-jaeger Releases · jaegertracing/jaeger 
+jaeger https://github.com/jaegertracing/jaeger/releases 
 
-prometheus Releases · prometheus/prometheus   
+prometheus https://github.com/prometheus/prometheus/releases   
 
                      helm search repo prometheus-community/kube-prometheus-stack --versions
 
-Grafana Releases · grafana/grafana 
+Grafana https://github.com/grafana/grafana/releases 
 
 helm search repo grafana/grafana --versions
 
-AlertManager GitHub - prometheus-community/helm-charts: Prometheus community Helm charts 
+AlertManager https://github.com/prometheus-community/helm-charts 
 
 helm search repo prometheus-community/alertmanager --versions
 
-Fluentbit GitHub - fluent/helm-charts: Helm Charts for Fluentd and Fluent Bit 
+Fluentbit https://github.com/fluent/helm-charts 
 
 helm search repo fluent
 
-Opensearch  GitHub - opensearch-project/helm-charts: :wheel_of_dharma: A community repository for Helm Charts of OpenSearch Project. 
+Opensearch  https://github.com/opensearch-project/helm-charts 
 
 helm search repo opensearch
 
-Gitlab GitLab.org / charts / GitLab Chart · GitLab 
+Gitlab https://gitlab.com/gitlab-org/charts/gitlab 
 
 helm search repo -l gitlab/gitlab
 
-Jenkins GitHub - jenkinsci/helm-charts: Jenkins helm charts 
+Jenkins https://github.com/jenkinsci/helm-charts 
 
 helm search repo -l jenkins/jenkins
 
-Gitlab Runner GitLab.org / charts / GitLab Runner · GitLab 
+Gitlab Runner https://gitlab.com/gitlab-org/charts/gitlab-runner 
 
 helm search repo gitlab/gitlab-runner --versions
 
-Argo GitHub - argoproj/argo-helm: ArgoProj Helm Charts 
+Argo https://github.com/argoproj/argo-helm 
 
 helm search repo argo/argo-cd --versions
 
-MariaDB charts/bitnami/mariadb at main · bitnami/charts 
+MariaDB https://github.com/bitnami/charts/tree/main/bitnami/mariadb 
 
 helm repo add bitnami https://charts.bitnami.com/bitnami
 
 helm search repo bitnami/mariadb --versions
 
-MySQL charts/bitnami/mysql at main · bitnami/charts 
+MySQL https://github.com/bitnami/charts/tree/main/bitnami/mysql 
 
 helm search repo bitnami/mysql --versions
 
-PostgreSQL charts/bitnami/postgresql-ha at main · bitnami/charts 
+PostgreSQL https://github.com/bitnami/charts/tree/main/bitnami/postgresql-ha 
 
 helm search repo bitnami/postgresql-ha --versions 
 
-Redis charts/bitnami/redis at main · bitnami/charts 
+Redis https://github.com/bitnami/charts/tree/main/bitnami/redis 
 
 helm search repo bitnami/redis --versions
 
-Kafka charts/bitnami/kafka at main · bitnami/charts 
+Kafka https://github.com/bitnami/charts/tree/main/bitnami/kafka 
 
 helm search repo bitnami/kafka --versions
 
-Velero helm-charts/charts/velero at main · vmware-tanzu/helm-charts 
+Velero https://github.com/vmware-tanzu/helm-charts/tree/main/charts/velero 
 
 helm search repo vmware-tanzu/velero --versions 
 
-keyclock charts/bitnami/keycloak at main · bitnami/charts 
+keyclock https://github.com/bitnami/charts/tree/main/bitnami/keycloak 
 
 helm search repo bitnami/keycloak --versions
+
+NeuVector https://github.com/neuvector/neuvector-helm 
+
+helm search repo neuvector --versions
 
 NeuVector GitHub - neuvector/neuvector-helm: HELM chart to install NeuVector container cluster 
 
